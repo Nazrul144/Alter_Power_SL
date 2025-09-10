@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Step 1: Prepare Your Tools",
+    "designation": "Maintenance Preparation",
+    "image": "https://i.postimg.cc/05pFH5rg/emmanuel-ikwuegbu-z-WOgsj3j0w-A-unsplash.jpg",
+    "description": "Ensure you have all the necessary tools for electrical maintenance, including a multimeter, voltage testers, insulated tools, safety gloves, and screwdrivers.",
+    "rating": 5,
+    "relevantPoint": "Safety is critical. Always use insulated tools to prevent electrical hazards."
+  },
+  {
+    "id": 2,
+    "name": "Step 2: Inspect Electrical Wiring",
+    "designation": "Electrical Inspection",
+    "image": "https://i.postimg.cc/hGpNs2GX/fotos-XCL-ROkw5t8-unsplash.jpg",
+    "description": "Inspect the wiring for visible damage, wear, or corrosion. Ensure all connections are secure and that there is no exposed or frayed wiring.",
+    "rating": 4,
+    "relevantPoint": "Regular inspection helps prevent potential hazards like short circuits or fires."
+  }
+]

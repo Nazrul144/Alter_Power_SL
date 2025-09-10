@@ -1,0 +1,206 @@
+[
+  {
+    "id": "1",
+    "name": "Electrical Installation",
+    "description": "Our professional electrical installation services cater to both residential and commercial properties. We provide safe and efficient wiring, lighting solutions, and power system setups designed to meet your specific needs. Our certified electricians ensure compliance with all safety standards and local regulations, guaranteeing reliable and long-lasting installations. Whether it's new construction or upgrading existing electrical infrastructure, we deliver expert workmanship and timely service to keep your property powered and secure.",
+    "image": "https://i.postimg.cc/J7d47VLJ/Adobe-Express-file-2.jpg",
+    "relatedProjects": [
+      {
+        "id": 101,
+        "title": "Luxury Villa Electrical Setup",
+        "image": "https://i.postimg.cc/XYJZXF7K/electrical.jpg",
+        "description": "Installed a modern electrical system with smart wiring in a luxury villa."
+      },
+      {
+        "id": 102,
+        "title": "Shopping Mall Power Distribution",
+        "image": "https://i.postimg.cc/YqfG92nb/solar.jpg",
+        "description": "Designed and implemented the entire electrical wiring & distribution for a commercial mall."
+      },
+      {
+        "id": 103,
+        "title": "Office Tower Electrical Upgrade",
+        "image": "https://i.postimg.cc/KY3nLJmN/battery.jpg",
+        "description": "Upgraded and modernized the electrical system for a 15-floor corporate office tower."
+      },
+      {
+        "id": 104,
+        "title": "Residential Apartment Wiring",
+        "image": "https://i.postimg.cc/zDcyc2zX/residential.jpg",
+        "description": "Installed safe and efficient wiring for a 30-unit residential apartment complex."
+      },
+      {
+        "id": 105,
+        "title": "Industrial Factory Setup",
+        "image": "https://i.postimg.cc/3NykHYpg/factory.jpg",
+        "description": "Completed heavy-duty wiring and electrical distribution for a textile factory."
+      },
+      {
+        "id": 106,
+        "title": "Smart Home Electrical Automation",
+        "image": "https://i.postimg.cc/tJtgh7VV/smarthome.jpg",
+        "description": "Installed IoT-based electrical automation system in a modern smart home."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Solar & Inverter Solutions",
+    "description": "We specialize in efficient solar panel installations and advanced inverter solutions to help you save on energy costs while reducing your environmental footprint. Our custom-designed systems maximize energy generation and optimize power usage for homes and businesses. With our expert guidance and high-quality equipment, you can enjoy sustainable energy, lower electricity bills, and increased energy independence. We also provide maintenance and support to ensure your solar and inverter systems operate at peak performance year-round.",
+    "image": "https://i.postimg.cc/85c3CYRX/Adobe-Express-file-3.jpg",
+    "relatedProjects": [
+      {
+        "id": 201,
+        "title": "Rooftop Solar for Factory",
+        "image": "https://i.postimg.cc/6qv4kZ5k/solar-factory.jpg",
+        "description": "Installed 150kW rooftop solar system for a local manufacturing plant."
+      },
+      {
+        "id": 202,
+        "title": "Residential Off-grid Solar Cluster",
+        "image": "https://i.postimg.cc/2jDnmmv1/solar-home.jpg",
+        "description": "Set up off-grid solar + inverter systems for 25 remote homes."
+      },
+      {
+        "id": 203,
+        "title": "Hybrid Solar + Grid-Tie Solution",
+        "image": "https://i.postimg.cc/YqfG92nb/solar.jpg",
+        "description": "Designed hybrid system with grid-tie inverter and battery backup for a school campus."
+      },
+      {
+        "id": 204,
+        "title": "Solar Maintenance Contract",
+        "image": "https://i.postimg.cc/8CTcZ2hF/solar-maintain.jpg",
+        "description": "Annual maintenance, cleaning and performance tuning for commercial solar arrays."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Battery Backup Systems",
+    "description": "Our reliable battery backup systems are designed to provide uninterrupted power during outages, keeping your home or business running smoothly when it matters most. We offer scalable solutions tailored to your energy requirements, ensuring continuous operation of critical appliances and systems. With high-capacity batteries and smart energy management, our systems improve resilience against power disruptions, enhance safety, and provide peace of mind. Our team handles installation, monitoring, and maintenance for optimal reliability.",
+    "image": "https://i.postimg.cc/mD2xHw9J/Adobe-Express-file-4.jpg",
+    "relatedProjects": [
+      {
+        "id": 301,
+        "title": "Commercial UPS Installation",
+        "image": "https://i.postimg.cc/KY3nLJmN/battery.jpg",
+        "description": "Installed 3-phase UPS and battery bank for a data center."
+      },
+      {
+        "id": 302,
+        "title": "Lithium Battery Bank for Clinic",
+        "image": "https://i.postimg.cc/2n3y7r1R/lithium.jpg",
+        "description": "Deployed lithium battery backup system to secure critical medical equipment."
+      },
+      {
+        "id": 303,
+        "title": "Battery Room for Office Complex",
+        "image": "https://i.postimg.cc/4Nr2k1qZ/battery-room.jpg",
+        "description": "Built a dedicated battery room with ventilation and monitoring for an office block."
+      },
+      {
+        "id": 304,
+        "title": "Remote Battery Monitoring Setup",
+        "image": "https://i.postimg.cc/6nB7gQh7/monitoring.jpg",
+        "description": "Integrated BMS and remote telemetry for multi-site battery systems."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Waterproofing & Roof Repair",
+    "description": "Protect your property from leaks, water damage, and structural deterioration with our expert waterproofing and roof repair services. We use industry-leading materials and techniques to seal roofs, walls, and foundations against moisture intrusion. Our comprehensive approach addresses existing issues and implements preventative solutions, extending the lifespan of your property and improving energy efficiency. Whether it's minor repairs or complete roof restorations, our skilled technicians deliver durable, weather-resistant results tailored to your needs.",
+    "image": "https://i.postimg.cc/s2tMwMjV/Adobe-Express-file-5.jpg",
+    "relatedProjects": [
+      {
+        "id": 401,
+        "title": "Terrace Waterproofing (Large Apartment)",
+        "image": "https://i.postimg.cc/9fKq7w1S/roof1.jpg",
+        "description": "Applied multi-layer membrane waterproofing for a 10-story apartment terrace."
+      },
+      {
+        "id": 402,
+        "title": "Basement Leak Repair",
+        "image": "https://i.postimg.cc/7Y8bQ7Yk/basement.jpg",
+        "description": "Injected grout and external drainage to permanently fix basement seepage."
+      },
+      {
+        "id": 403,
+        "title": "Full Roof Restoration",
+        "image": "https://i.postimg.cc/5t5gq2zQ/roof-restore.jpg",
+        "description": "Removed old layers and restored roof with heat-reflective coatings."
+      },
+      {
+        "id": 404,
+        "title": "Gutter & Flashing Replacement",
+        "image": "https://i.postimg.cc/PxqQZt9c/gutter.jpg",
+        "description": "Replaced gutters and installed new flashing to prevent water ingress."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Inverter Back-Up Power Installation",
+    "description": "Stay powered during loadshedding and blackouts with our inverter back-up power installation services. We design and install reliable systems that automatically switch your power supply to backup energy, ensuring seamless electricity availability. Our solutions support a range of power needs, from essential household circuits to full business operations, maintaining comfort and productivity at all times. With professional installation and ongoing support, you can trust your power backup system to perform when you need it most.",
+    "image": "https://i.postimg.cc/PrqGx2Hw/Adobe-Express-file-7.jpg",
+    "relatedProjects": [
+      {
+        "id": 501,
+        "title": "Home Inverter + ATS Setup",
+        "image": "https://i.postimg.cc/D0r2cR8v/inverter-home.jpg",
+        "description": "Installed inverter with automatic transfer switch for a 4-bedroom house."
+      },
+      {
+        "id": 502,
+        "title": "Commercial Inverter Bank",
+        "image": "https://i.postimg.cc/8P6kQmZB/inverter-commercial.jpg",
+        "description": "Configured multiple inverters to support small business operations during outages."
+      },
+      {
+        "id": 503,
+        "title": "Hybrid Inverter Commissioning",
+        "image": "https://i.postimg.cc/YqfG92nb/solar.jpg",
+        "description": "Commissioned hybrid inverter system integrating solar and mains for a guesthouse."
+      },
+      {
+        "id": 504,
+        "title": "Inverter Maintenance & Service",
+        "image": "https://i.postimg.cc/8CTcZ2hF/solar-maintain.jpg",
+        "description": "Scheduled preventive maintenance and battery health checks for multiple clients."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Plumbing Services",
+    "description": "Our comprehensive plumbing services cover everything from installations and repairs to regular maintenance for residential and commercial properties. We fix leaks, unclog drains, install new fixtures, and upgrade plumbing systems with efficiency and precision. Using high-quality materials and industry best practices, we ensure reliable water supply and drainage, helping you avoid costly damage and downtime. Our experienced plumbers deliver prompt, professional service to keep your plumbing systems running smoothly year-round.",
+    "image": "https://i.postimg.cc/k5tGHWg2/Adobe-Express-file-8.jpg",
+    "relatedProjects": [
+      {
+        "id": 601,
+        "title": "Full Apartment Plumbing Fit-Out",
+        "image": "https://i.postimg.cc/c4mV3s5K/plumbing1.jpg",
+        "description": "Complete plumbing installation for a 20-unit apartment complex."
+      },
+      {
+        "id": 602,
+        "title": "Bathroom Renovation Plumbing",
+        "image": "https://i.postimg.cc/9X3k4gZb/bathroom.jpg",
+        "description": "Replaced old pipes and fixtures for a luxury bathroom remodel."
+      },
+      {
+        "id": 603,
+        "title": "Industrial Drainage Upgrade",
+        "image": "https://i.postimg.cc/5t5gq2zQ/roof-restore.jpg",
+        "description": "Upgraded drainage system for a warehouse to handle higher flow rates."
+      },
+      {
+        "id": 604,
+        "title": "Emergency Leak Response",
+        "image": "https://i.postimg.cc/7Y8bQ7Yk/basement.jpg",
+        "description": "24/7 emergency team that fixed burst pipes and restored service quickly."
+      }
+    ]
+  }
+]
