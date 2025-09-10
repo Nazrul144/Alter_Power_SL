@@ -120,14 +120,7 @@ const ServiceDetails = () => {
                   <p className="text-gray-600 flex-grow">
                     {project.description}
                   </p>
-                  <div className="mt-4 w-full">
-                    <Link
-                      href="/booking"
-                      className="relative inline-block w-full rounded-2xl bg-gradient-to-r from-red-500 via-pink-500 to-orange-400 px-6 py-2 text-center text-lg font-bold text-white shadow-lg transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-2xl hover:from-pink-500 hover:to-red-500"
-                    >
-                      Book Now
-                    </Link>
-                  </div>
+                 
                 </div>
               </div>
             ))}
