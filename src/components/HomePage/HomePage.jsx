@@ -8,12 +8,14 @@ import WhyChooseUs from './WhyChooseUs';
 import TestimonialPage from '@/app/testimonial/page';
 import FAQ from './FAQ';
 import CustomerReviews from './CustomerReviews ';
+import TopProjects from '../TopProjects';
 
 const HomePage = () => {
     return (
         <div>
             <Banner/>
             <About/>
+            <TopProjects/>
             <Services/>
             <Address/>
             <OurTeam/>

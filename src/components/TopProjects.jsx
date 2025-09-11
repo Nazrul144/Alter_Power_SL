@@ -1,47 +1,101 @@
 "use client";
-
 import React, { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { FaFacebook } from "react-icons/fa6";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { FaInstagramSquare, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 const TopProjects = () => {
   const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/topProject.json")
-      .then((res) => res.json())
-      .then((data) => setProjects(data))
-      .catch((err) => console.error("Error loading top projects:", err));
+    const loadData = async () => {
+      const res = await fetch("/topProject.json");
+      const data = await res.json();
+      setProjects(data);
+      setLoading(false);
+    };
+    loadData();
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-12 mt-16">
-      <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
-        Top Projects
-      </h2>
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project) => (
-          <div
-            key={project.id}
-            className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:-translate-y-2 hover:scale-105 transition-all duration-500 ease-in-out"
-          >
-            <div className="relative w-full h-60 overflow-hidden">
-              <Image
-                src={project.image}
-                alt={project.title}
-                fill
-                className="object-cover rounded-t-xl transform hover:scale-110 transition-transform duration-500 ease-in-out"
-              />
-            </div>
-            <div className="p-5">
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                {project.title}
-              </h3>
-              <p className="text-gray-600">{project.description}</p>
-            </div>
-          </div>
-        ))}
+    <motion.div
+      initial={{ opacity: 0, y: 150 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+      viewport={{ amount: 0.0 }}
+      className="container mx-auto mt-12 mb-12"
+    >
+      <div className="flex justify-center items-center">
+        {loading && <span className="loading loading-dots loading-lg"></span>}
       </div>
-    </div>
+      <div>
+        <h1 className="font-bold text-center text-4xl dark:text-gray-300 mb-2">
+          Our Top Projects
+        </h1>
+        <p className="text-center text-gray-600 dark:text-neutral-400 mx-5 md:mx-0">
+          Explore some of our most successful and innovative projects. Each
+          showcases our expertise, creativity, and commitment to delivering
+          high-quality solutions.
+        </p>
+      </div>
+      <Swiper
+        spaceBetween={15}
+        slidesPerView={3}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+        breakpoints={{
+          320: {
+            slidesPerView: 1, // Show 1 card for mobile screens
+            spaceBetween: 10, // Smaller gap for mobile
+          },
+          640: {
+            slidesPerView: 2, // Show 2 cards for tablet screens
+            spaceBetween: 10, // Smaller gap for tablet
+          },
+          1024: {
+            slidesPerView: 3, // Show 3 cards for desktop screens
+            spaceBetween: 15, // Smaller gap for desktop
+          },
+        }}
+      >
+        {projects?.map((project) => (
+          <SwiperSlide
+            key={project.id}
+            className="flex justify-center  mb-12 mt-12 dark:text-gray-300"
+          >
+            <div className="card card-md dark:bg-zinc-800 shadow-md">
+              <figure className="px-4 pt-4">
+                <Image
+                  src={project.image}
+                  alt="project"
+                  className="rounded-xl w-full"
+                  width={300}
+                  height={300}
+                />
+              </figure>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </motion.div>
   );
 };
 
